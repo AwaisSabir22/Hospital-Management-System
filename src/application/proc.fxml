@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.proc">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../SDA%20Proj%20FrontEnd/test1.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="179.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Procedure" />
+            <TextArea fx:id="procedure" layoutX="242.0" layoutY="97.0" prefHeight="134.0" prefWidth="200.0" />
+            <Button fx:id="submit2" layoutX="242.0" layoutY="285.0" mnemonicParsing="false" onAction="#presssubmit2" text="Submit" />
+            <Button fx:id="return2" layoutX="354.0" layoutY="285.0" mnemonicParsing="false" onAction="#go_back" text="Return" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
